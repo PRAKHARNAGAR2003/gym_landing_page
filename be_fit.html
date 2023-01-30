@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be fit</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        color: indigo;
+        margin: 0px;
+        padding: 0px;
+        background: url(blurred-fitness-gym-background-banner-fitness-exercise-co-blurred-fitness-gym-background-banner-fitness-exercise-118207083.jpg);
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .left{
+        color: aliceblue;
+        position: absolute;
+        left: 27px;
+        top: 0px;
+        display: inline block;
+        /* border: 4px solid brown; */
+    }
+    .left img{
+        width: 125px;
+    }
+    .left div{
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .mid{
+        margin: 12px auto;
+        width: 40%;
+        display: block;
+        /* border: 4px solid black;
+        background-color: bisque; */
+    }
+    .right{
+        position: absolute;
+        right: 27px;
+        top: 0px;
+        display: inline block;
+        /* border: 4px solid darkgreen; */
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 16px;
+    }
+    .navbar li a{
+        font-weight: bold;
+        color: blueviolet;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: tomato;
+    }
+    .btn{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:blueviolet;
+        background-color: bisque;
+        padding: 5px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .btn:hover{
+        background-color: aqua;
+    }
+    .btn a:hover{
+        color: tomato;
+        text-decoration: underline;
+    }
+    .container{
+        border: 3px solid blueviolet;
+        margin: 100px 850px;
+        padding: 20px 30px;
+        width: 30%;
+        background-color: rgb(237, 225, 225);
+        border-radius: 30px;
+
+    }
+    .form-group input{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-radius: 10px;
+        text-align: center;
+        border: 150px soild black;
+        display: block;
+        margin: 20px auto;
+        padding: 20px;
+        font-size: 15px;
+    }
+    .container h1{
+        text-align: center;
+        text-decoration: underline;
+    }
+    .container button{
+        display: block;
+        margin: auto;
+        width: 250px;
+    }
+</style>
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="Images/gym logo.jpeg" alt="Can't load the image">
+            <div>BE FIT</div>
+        </div>
+        <!-- Mid box for nvbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn"><a>Call us Now</a></button>
+            <button class="btn"><a>Email us</a></button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join be fit GYM!</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">
+                Submit
+            </button>
+        </form>
+
+    </div>
+</body>
+</html>
